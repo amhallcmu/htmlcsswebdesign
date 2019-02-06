@@ -10,4 +10,27 @@
 /* This is a CSS Comment; note the comment syntax is different from what we use to mark up comments in HTML! */
 
 /* Page styles after this comment */
+@import url('https://fonts.googleapis.com/css?family=Karla|Lato');
+head
+{
+    font-family: 'Karla', sans-serif;
+font-family: 'Lato', sans-serif;
+}
+h1, h2, h3
+{
+    font-family: 'Karla', sans-serif;
+}
+p, ul
+{
+    font-family: 'Lato', serif;
+}
 
+ul > ul > li
+{
+    color:darkorange;
+}
+
+h3 + p
+{
+    font-style: italic;
+}
