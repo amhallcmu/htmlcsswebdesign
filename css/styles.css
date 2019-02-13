@@ -34,3 +34,51 @@ h3 + p
 {
     font-style: italic;
 }
+
+img
+{
+    height:100px;
+    float:left;
+    
+        
+}
+
+header h1
+{
+    font-size:32pt;
+    
+}
+
+header img
+{
+    margin-right:40px;
+}
+nav
+{
+    background-color:orange;
+    padding: 20px 10px;
+    border-width: 10px;
+    border-color: gray;
+    border-style: solid none;
+    margin: 10px auto;
+}
+
+main img
+{
+    margin-right: 50px;
+}
+
+footer
+{
+    background-color:orange;
+    padding: 20px 10px;
+    border-width: 5px;
+    border-color:gray;
+    border-style: solid none none none;
+    margin: 40px;
+}
+
+main + footer + p
+{
+    color:orange;
+}
