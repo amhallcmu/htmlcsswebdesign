@@ -61,6 +61,12 @@ nav
     border-color: gray;
     border-style: solid none;
     margin: 10px auto;
+    text-align: center
+}
+
+nav span
+{
+    padding: 20px
 }
 
 main img
@@ -81,4 +87,8 @@ footer
 main + footer + p
 {
     color:orange;
+}
+
+main h1
+{font-size: 32pt;
 }
