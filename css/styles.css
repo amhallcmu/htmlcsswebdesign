@@ -43,6 +43,11 @@ img
         
 }
 
+header
+{
+    overflow:auto;
+}
+
 header h1
 {
     font-size:32pt;
@@ -91,4 +96,15 @@ main + footer + p
 
 main h1
 {font-size: 32pt;
+}
+
+h2
+{
+    clear:both;
+}
+.contact_icon
+{
+    float:right;
+    height:200px;
+    
 }
