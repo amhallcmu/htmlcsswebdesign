@@ -27,7 +27,7 @@ p, ul
 
 ul > ul > li
 {
-    color:darkorange;
+    color:coral;
 }
 
 h3 + p
@@ -60,7 +60,7 @@ header img
 }
 nav
 {
-    background-color:orange;
+    background-color:coral;
     padding: 20px 10px;
     border-width: 3px;
     border-color: gray;
@@ -81,7 +81,7 @@ main img
 
 footer
 {
-    background-color:orange;
+    background-color:coral;
     padding: 20px 10px;
     border-width: 5px;
     border-color:gray;
@@ -108,3 +108,41 @@ h2
     height:200px;
     
 }
+
+/*Positioning*/
+
+.p_fixed
+{
+    position:fixed;
+    top: 8px;
+    left:8px;
+    
+}
+
+.p_absolute
+{
+    position:relative;
+}
+
+
+
+.p_absolute img 
+{
+    position:absolute;
+    top:-15px;
+    left:-2px;
+    height: 50px;
+    
+    
+}
+
+
+.p_absolute h3
+{
+    margin-left: 50px
+}
+
+.p_absolute:hover img
+{background-color: coral;
+}
+
