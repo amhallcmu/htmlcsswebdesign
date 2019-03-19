@@ -146,3 +146,20 @@ h2
 {background-color: coral;
 }
 
+
+.news_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.el1 {
+    flex: 1;
+}
+
+.el2 {
+    flex: 5;
+}
+
+.el3 {
+    flex: 1;
+}
