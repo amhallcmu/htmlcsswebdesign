@@ -61,7 +61,6 @@ header img
 nav
 {
     background-color:coral;
-    padding: 20px 10px;
     border-width: 3px;
     border-color: gray;
     border-style: solid none;
@@ -71,7 +70,19 @@ nav
 
 nav span
 {
-    padding: 20px
+    
+    display: block;
+}
+
+nav a{
+    display: block;
+    padding: 20px;
+    color: white;
+    
+}
+
+nav a:hover {
+    background-color: #FFAE91;
 }
 
 main img
@@ -146,6 +157,9 @@ h2
 {background-color: coral;
 }
 
+ /*FLEX*/
+
+/*News and Press*/
 
 .news_content {
     display: flex;
@@ -162,4 +176,21 @@ h2
 
 .el3 {
     flex: 1;
+}
+
+/*Menubar*/
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', serif;
+}
+
+.menu_item {
+    flex: 1;
+    
+}
+
+.item_emphasis {
+    background-color: grey;
 }
