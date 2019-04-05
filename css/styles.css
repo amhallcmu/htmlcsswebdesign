@@ -120,6 +120,16 @@ h2
     
 }
 
+
+.portfolio_image {
+    padding-bottom: 10px;
+}
+
+figcaption {
+    clear: both;
+    padding-top: 10px;
+}
+
 /*Positioning*/
 
 .p_fixed
@@ -193,4 +203,12 @@ h2
 
 .item_emphasis {
     background-color: grey;
+}
+
+/*GRID*/
+
+.grid_container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
