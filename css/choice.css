@@ -1,0 +1,4 @@
+/* This decides which rules we get depending on how wide the viewport is */
+@import url(styles-mobile.css) (max-width:767px);
+
+@import url(styles.css) (min-width:768px);
