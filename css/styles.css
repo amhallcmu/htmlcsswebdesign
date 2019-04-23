@@ -59,6 +59,10 @@ header h1
     
 }
 
+header a {
+    color: black;
+}
+
 
 nav
 {
@@ -177,6 +181,10 @@ figcaption {
  /*FLEX*/
 
 /*News and Press*/
+
+.news_title {
+    display: block;
+}
 
 .news_content {
     display: flex;

@@ -45,6 +45,10 @@ header h1
     
 }
 
+header a {
+    color: black;
+}
+
 
 nav
 {
